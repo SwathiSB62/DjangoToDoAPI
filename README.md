@@ -100,7 +100,7 @@ Details:
    }
 ``` 
      
- ### api/v1/todos/<id>
+ ### api/v1/todos/{id}
 **Allowed Methods** : PUT,DELETE
 <br>**Access Level** : Authorized users
 <br>**header :** 'required': JWT access token with prefix 'Bearer' in 'Authorization'
